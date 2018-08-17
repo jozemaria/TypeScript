@@ -6,11 +6,11 @@ const dias: string[] = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sex
 //Objeto:
 data = new Date();
 //Criando variavel para usar em log:
-const AQUICARAI: number = data.getDay();
+const AQUI_VAR: number = data.getDay();
 
 
 
 
 console.log(dataERRO);
 
-console.log(`Olá,  ${nome}, hoje é ${dias[AQUICARAI]}`);
+console.log(`Olá,  ${nome}, hoje é ${dias[AQUI_VAR]}`);
