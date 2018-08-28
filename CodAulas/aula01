@@ -1,0 +1,16 @@
+let nome: string = 'José Maria';
+let idade: number = 26;
+let dataERRO: Date;
+const dias: string[] = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta da Maldade'];
+
+//Objeto:
+data = new Date();
+//Criando variavel para usar em log:
+const AQUI_VAR: number = data.getDay();
+
+
+
+
+console.log(dataERRO);
+
+console.log(`Olá,  ${nome}, hoje é ${dias[AQUI_VAR]}`);
