@@ -13,6 +13,7 @@ let frases: string[] = [`- Parabéééns ${nome}, muitos anos de vida, que esse 
                         `- Parabéééns ${nome}, Muitos anos de Vida!!`,
                         `- E hoje os parabééns vai para o ${nome}`];
 
+                        
 
 let parabens = function() {
     return frases[num]
