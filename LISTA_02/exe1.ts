@@ -6,14 +6,14 @@ let nomes:  string[]  =  ['Bruno',  'Elaine',  'José',  'Matheus',  'Maria','Al
 nomes.push('Paulo', 'Albertina'); //Push está recebendo duas string, e add na ultima posição.
 
 //b)
-console.log(`## Total de nomes ${nomes.length} ##`); //tamanho total da string
+console.log(`## Total de nomes ${nomes.length} ##`); //tamanho total da string;
 
 //c)asd
-nomes.splice(2,1); //ainda não entendi, mas tira a posição e contiua da onde tirou
+nomes.splice(2,1); //Remove o segundo elemento do vetor um elemento;
 console.log(nomes);
 
 //d)
-console.log(`O nome selecionado está na ${nomes.indexOf('Bruno')+1} posição`);
+console.log(`O nome selecionado está na ${nomes.indexOf('Bruno')} posição`);
 
 //e)
 let cont: number = 0; //esse "for" está andando todo array, vendo os nomes que começam com A.
