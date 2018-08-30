@@ -1,3 +1,4 @@
+
 import * as readline from 'readline-sync';
 
 // Gerar número randomico
@@ -6,10 +7,14 @@ function obterInt(min: number, max: number): number {
     max = Math.floor(max);  //arredonda  para  baixo        
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-let valor: number = obterInt(0, 30);
+
+let pol = readline.questionInt('Digite um número: ')
+let diego = readline.questionInt('Digite outro número: ')
+
+let valor: number = obterInt(pol, diego);
 
 for (let i = 0; i < 5; i++) {
-    let resposta = readline.questionInt('Digite  um  numero  (0  a  30):  ');
+    let resposta = readline.questionInt(`Digite  um  numero  (${pol}  a  ${diego}):  `);
     if (resposta === valor) {
         console.log("Acertou!");
         break;

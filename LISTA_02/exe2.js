@@ -7,9 +7,11 @@ function obterInt(min, max) {
     max = Math.floor(max); //arredonda  para  baixo        
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var valor = obterInt(0, 30);
+var pol = readline.questionInt('Digite um número: ');
+var diego = readline.questionInt('Digite outro número: ');
+var valor = obterInt(pol, diego);
 for (var i = 0; i < 5; i++) {
-    var resposta = readline.questionInt('Digite  um  numero  (0  a  30):  ');
+    var resposta = readline.questionInt("Digite  um  numero  (" + pol + "  a  " + diego + "):  ");
     if (resposta === valor) {
         console.log("Acertou!");
         break;
