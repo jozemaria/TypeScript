@@ -1,6 +1,5 @@
 var nome = 'José Maria';
 var data = new Date();
-
 function dia_extenso(dia) {
     var dias = ['Domingo', 'Segunda', 'Terça', 'Quarta',
         'Quinta', 'Sexta da Maldade', 'Sabado'];
