@@ -20,7 +20,7 @@ export class Bicicleta {
             this.velocidade = 70;
         }
 
-    //this.velocidade += 10;
+    
     }
     obterVelocidade(): number {
         return this.velocidade;
@@ -30,10 +30,10 @@ export class Bicicleta {
 
 
 let b1 = new Bicicleta();
-let teste: string = readline.questionFloat('Qual é a velocidade? ')
+let aumentarVelo: string = readline.questionFloat('Qual é a velocidade? ')
 
-b1.pedalar(teste);
-b1.pedalar(teste);
+b1.pedalar(aumentarVelo);
+
 
 console.log(b1.obterVelocidade());
 

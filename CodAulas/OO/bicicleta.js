@@ -17,7 +17,6 @@ var Bicicleta = /** @class */ (function () {
         else {
             this.velocidade = 70;
         }
-        //this.velocidade += 10;
     };
     Bicicleta.prototype.obterVelocidade = function () {
         return this.velocidade;
@@ -26,7 +25,6 @@ var Bicicleta = /** @class */ (function () {
 }());
 exports.Bicicleta = Bicicleta;
 var b1 = new Bicicleta();
-var teste = readline.questionFloat('Qual é a velocidade? ');
-b1.pedalar(teste);
-b1.pedalar(teste);
+var aumentarVelo = readline.questionFloat('Qual é a velocidade? ');
+b1.pedalar(aumentarVelo);
 console.log(b1.obterVelocidade());
