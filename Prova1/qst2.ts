@@ -1,5 +1,21 @@
 //Questão 02:
+let tv1: any = [['Samsung', 'SS450', 32, 1500], ['Philco', 'P239', 29, 1200], ['CCE', 'C543E', 52, 5000]];
 
+
+console.log(`=== MARCAS DE TV ===`)
+
+for (let i in tv1){ 
+console.log(`####################
+Marca: ${tv1[i][0]};
+Modelo: ${tv1[i][1]};
+Tamanho: ${tv1[i][2]} Polegadas;
+Valor: ${tv1[i][3]}`);
+}
+
+
+
+
+/*
 let tv1: any = ['Samsung', 'SS450', 32, 1500];
 let tv2: any = ['Philco', 'P239', 29, 1200];
 let tv3: any = ['CCE', 'C543E', 52, 5000];
@@ -23,3 +39,4 @@ Marca:      ${tv3[0]};
 Modelo:     ${tv3[1]};
 Tamanho:    ${tv3[2]} Polegadas;
 Valor:      ${tv3[3]}`);
+*/
